@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Enter in main")
 
 	go callGo()
 	time.Sleep(1 * time.Second)
